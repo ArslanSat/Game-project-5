@@ -61,7 +61,7 @@ function decreaseTime() {
 function finishGame() {
     // timeEl.parentNode.clasList.add('hide');
     timeEl.parentNode.classList.add('hide')
-    board.innerHTML = `Cчет:<span class="primary"> ${score}</span>`
+    board.innerHTML = `<h4>Cчет: <span class="primary">${score}</span></h4>`
 };
 
 function createRandomCircle() {
